@@ -28,7 +28,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ml-auto">
-                    <li class="navbar-item">
+                    <li class="navbar-item" data-toggle="modal" data-target="#exampleModalCenter">
                         <a href="#" class="nav-link">About</a>
                     </li>
                     <li class="navbar-item">
@@ -108,11 +108,40 @@
 
 <br>
 
+        
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalCenterTitle">Wanna get to know Me?</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <h6>5 fun facts about me!</h6>
+              <hr>
+              <p>1. I have an identical twin.</p>
+              <p>2. I was a dancer for 13 years.</p>
+              <p>3. My cat Chloe has an Instagram. Follow her <a href="https://www.instagram.com/moocatchloe/">@moocatchloe.</href></a></p>
+              <p>4. I have lived in Los Angeles now for over 10 years.</p>
+              <p>5. My favorite place in the whole wide world is Martin's Beach in Half Moon Bay, CA.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+
 <div class="container-fluid">
       <div class="row" style="padding:1rem; background-color: #242424;">
             <div class="col-sm-12 col-md-12">
                 <ul class="list-unstyled list-inline social text-center">
-                    <span style="font-size: 1em;"><li class="list-inline-item"><a href="mailto:sayhellocelina@gmail.com"><i class="fas fa-envelope"></i></a></li></span>
+                    <span style="font-size: 1em;"><li class="list-inline-item">Tooltip on top<a href="mailto:sayhellocelina@gmail.com"><i class="fas fa-envelope" data-toggle="tooltip" data-placement="top" title="Email Me!"></i></a></li></span>
                     <span style="font-size: 1em;"><li class="list-inline-item"><a href=""><i class="fab fa-linkedin-in"></i></a></li></span>
                     <span style="font-size: 1em;"><li class="list-inline-item"><a href=""><i class="fab fa-facebook-f"></i></a></li></span>
                     <span style="font-size: 1em;"><li class="list-inline-item"><a href=""><i class="fab fa-instagram"></i></a></li></span>
@@ -125,6 +154,5 @@
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    
-</body>
+        <script src="index.js"></script>
 </html>
